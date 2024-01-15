@@ -1,7 +1,7 @@
 # exception-hook
 Script para imprimir erros inesperados durante a execução de códigos de média-alta complexidade
 
-Ao ocorrer um erro, o script imprime em um PDF dados de Tipo, Nome, Arquivo, Linha de onde ocorreu o erro, acrescido de Data e hora. Desenvolvido no python 3.11.0.
+Quando um erro ocorre, o script gera um PDF contendo informações como data e hora, tipo de erro, nome, arquivo e linha onde o erro ocorreu. Além disso, ele insere o registro em uma tabela construída com a biblioteca SQLite3, utilizando o Python 3.11.0.
 
 ## em desenvolvimento
 
